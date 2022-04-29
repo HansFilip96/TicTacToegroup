@@ -1,0 +1,8 @@
+#Grid {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    grid-gap: 20px;
+    gap: 20px;
+    height: 460px;
+    margin: 20px 0 19px;
+}

@@ -1,0 +1,211 @@
+#startscreen__logo {
+  padding-top: 20vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+#startscreen__iconSelection {
+  margin: 40px 0;
+  padding: 24px 24px 29px;
+  text-align: center;
+  background-color: #1f3641;
+  box-shadow: inset 0 -8px 0 #10212a;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#startscreen__iconselection__text1 {
+  font-size: 1rem;
+  line-height: 20.16px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: #a8bfc9;
+  font-family: outfit;
+  padding-left: 2px;
+  margin: 3%;
+}
+#startscreen__iconselection__cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 90%;
+  border-radius: 15px;
+  font-family: outfit;
+}
+#startscreen__iconselection__text2 {
+  font-size: 1.4rem;
+  line-height: 17.64px;
+  letter-spacing: 0.88px;
+  font-weight: 500;
+  color: #a8bfc9;
+  font-family: outfit;
+  padding-left: 4px;
+  opacity: 0.5;
+  margin-top: 5%;
+}
+#startscreen__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#startscreen__newgame__btn__cpu {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #f2b137;
+  cursor: pointer;
+  box-shadow: inset -2px -5px 0 #b48329;
+  transition: box-shadow 0.1s ease-out, max-height 0.1s ease-out,
+    -webkit-transform 0.1s ease-out;
+  transition: box-shadow 0.1s ease-out, transform 0.1s ease-out,
+    max-height 0.1s ease-out;
+  transition: box-shadow 0.1s ease-out, transform 0.1s ease-out,
+    max-height 0.1s ease-out, -webkit-transform 0.1s ease-out;
+  font-size: 1em;
+  line-height: 25.2px;
+  letter-spacing: 1.25px;
+  font-weight: 700;
+  color: #1a2a33;
+  font-family: outfit;
+}
+#startscreen__newgame__btn__cpu:hover {
+  background-color: #ffc860;
+  box-shadow: inset 0px 0px 0 #4d4b4b00;
+}
+#startscreen__newgame__btn__player {
+  width: 100%;
+  margin-top: 2%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #31c3bd;
+  cursor: pointer;
+  box-shadow: inset -2px -5px 0 #24928e;
+  transition: box-shadow 0.1s ease-out, max-height 0.1s ease-out,
+    -webkit-transform 0.1s ease-out;
+  transition: box-shadow 0.1s ease-out, transform 0.1s ease-out,
+    max-height 0.1s ease-out;
+  transition: box-shadow 0.1s ease-out, transform 0.1s ease-out,
+    max-height 0.1s ease-out, -webkit-transform 0.1s ease-out;
+  font-size: 1em;
+  line-height: 25.2px;
+  letter-spacing: 1.25px;
+  font-weight: 700;
+  color: #1a2a33;
+  font-family: outfit;
+}
+#startscreen__newgame__btn__player:hover {
+  background-color: #65e9e4;
+  box-shadow: inset 0px 0px 0 #4d4b4b00;
+}
+
+#Startscreen__IconBackground {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  background-color: #1a2a33;
+  border-radius: 10px;
+  height: 50px;
+  transition: box-shadow 0.1s ease-out, max-height 0.1s ease-out,
+    -webkit-transform 0.1s ease-out;
+  transition: box-shadow 0.1s ease-out, transform 0.1s ease-out,
+    max-height 0.1s ease-out;
+  transition: box-shadow 0.1s ease-out, transform 0.1s ease-out,
+    max-height 0.1s ease-out, -webkit-transform 0.1s ease-out;
+}
+#Startscreen__IconBackground__x {
+  width: 50%;
+  height: 80%;
+  background-color: #747a7c;
+  border-radius: 10px;
+  margin: 0 0 0 1%;
+  cursor: pointer;
+  filter: grayscale(100%);
+  box-shadow: inset -2px -5px 0 #4d4b4b;
+  transition: box-shadow 0.1s ease-out, max-height 0.1s ease-out,
+    -webkit-transform 0.1s ease-out;
+  transition: box-shadow 0.1s ease-out, transform 0.1s ease-out,
+    max-height 0.1s ease-out;
+  transition: box-shadow 0.1s ease-out, transform 0.1s ease-out,
+    max-height 0.1s ease-out, -webkit-transform 0.1s ease-out;
+}
+#Startscreen__IconBackground__x__Active {
+  width: 50%;
+  height: 80%;
+  background-color: #c5c1c1;
+  border-radius: 10px;
+  margin: 0 0 0 1%;
+  cursor: pointer;
+  /* filter: grayscale(100%); */
+  transition: box-shadow 0.1s ease-out, max-height 0.1s ease-out,
+    -webkit-transform 0.1s ease-out;
+  transition: box-shadow 0.1s ease-out, transform 0.1s ease-out,
+    max-height 0.1s ease-out;
+  transition: box-shadow 0.1s ease-out, transform 0.1s ease-out,
+    max-height 0.1s ease-out, -webkit-transform 0.1s ease-out;
+}
+#Startscreen__IconBackground__o {
+  width: 50%;
+  height: 80%;
+  background-color: #747a7c;
+  border-radius: 10px;
+  margin: 0 1% 0 0;
+  cursor: pointer;
+  filter: grayscale(100%);
+  box-shadow: inset -2px -5px 0 #4d4b4b;
+  transition: box-shadow 0.1s ease-out, max-height 0.1s ease-out,
+    -webkit-transform 0.1s ease-out;
+  transition: box-shadow 0.1s ease-out, transform 0.1s ease-out,
+    max-height 0.1s ease-out;
+  transition: box-shadow 0.1s ease-out, transform 0.1s ease-out,
+    max-height 0.1s ease-out, -webkit-transform 0.1s ease-out;
+}
+#Startscreen__IconBackground__o:hover {
+  box-shadow: inset 0px 0px 0 #4d4b4b;
+}
+#Startscreen__IconBackground__x:hover {
+  box-shadow: inset 0px 0px 0 #4d4b4b;
+}
+#Startscreen__IconBackground__o__Active {
+  width: 50%;
+  height: 80%;
+  border-radius: 10px;
+  margin: 0 1% 0 0;
+  cursor: pointer;
+  background-color: #c5c1c1;
+  transition: box-shadow 0.1s ease-out, max-height 0.1s ease-out,
+    -webkit-transform 0.1s ease-out;
+  transition: box-shadow 0.1s ease-out, transform 0.1s ease-out,
+    max-height 0.1s ease-out;
+  transition: box-shadow 0.1s ease-out, transform 0.1s ease-out,
+    max-height 0.1s ease-out, -webkit-transform 0.1s ease-out;
+}
+#Startscreen__IconBackground__o img {
+  object-fit: contain;
+  height: 32px;
+  margin: 2%;
+}
+#Startscreen__IconBackground__o__Active img {
+  object-fit: contain;
+  height: 32px;
+  margin: 2%;
+}
+#Startscreen__IconBackground__x img {
+  object-fit: contain;
+  height: 32px;
+  margin: 2%;
+}
+#Startscreen__IconBackground__x__Active img {
+  object-fit: contain;
+  height: 32px;
+  margin: 2%;
+}
+#spanColor {
+  color: #11fff7;
+  font-weight: 700;
+}

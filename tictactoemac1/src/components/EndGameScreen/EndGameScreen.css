@@ -1,0 +1,126 @@
+#EndGameScreen {
+  display: flex;
+  transition: opacity 2s;
+  opacity: 1;
+}
+#EndGameScreen.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#EndGameScreen__Bottom {
+  height: 45vh;
+  background-color: rgba(26, 42, 51, 0.5);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  top: 60vh;
+  transition: opacity 0.5s;
+  opacity: 1;
+}
+#EndGameScreen__Top {
+  height: 30vh;
+  background-color: rgba(26, 42, 51, 0.5);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  top: 0vh;
+  transition: opacity 0.5s;
+  opacity: 1;
+}
+#EndGameScreen__Content {
+  display: flex;
+  background-color: #1f3641;
+  height: 266px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  z-index: 100;
+  top: 30vh;
+  width: 100%;
+  transition: opacity 0.5s;
+  opacity: 1;
+}
+#EndGameScreen__H1 {
+  font-weight: 700;
+  color: #a8bfc9;
+  font-family: outfit;
+  display: flex;
+  align-items: center;
+  grid-gap: 24px;
+  gap: 24px;
+  font-size: 4rem;
+  line-height: 50.4px;
+  letter-spacing: 2.5px;
+}
+#EndGameScreen__Btn__Quit {
+  flex-direction: row;
+  height: 52px;
+  padding: 0 16px 1px;
+  border-radius: 10px;
+  font-size: 1.6rem;
+  line-height: 20.16px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: #1a2a33;
+  font-family: outfit;
+  box-shadow: inset 0 -6px 0 #6b8997;
+  width: auto;
+  transition: box-shadow 0.1s ease-out, max-height 0.1s ease-out,
+    -webkit-transform 0.1s ease-out;
+  transition: box-shadow 0.1s ease-out, transform 0.1s ease-out,
+    max-height 0.1s ease-out;
+  transition: box-shadow 0.1s ease-out, transform 0.1s ease-out,
+    max-height 0.1s ease-out, -webkit-transform 0.1s ease-out;
+}
+#EndGameScreen__Btn__Quit:hover {
+  box-shadow: inset 0 0px 0 #6b8997;
+}
+#EndGameScreen__Btn__Restart:hover {
+  box-shadow: inset 0 0px 0 #6b8997;
+}
+#EndGameScreen__Btn__Restart {
+  background: #f2b137;
+  box-shadow: inset 0 -6px 0 #cc8b13;
+  flex-direction: row;
+  height: 52px;
+  padding: 0 16px 1px;
+  border-radius: 10px;
+  font-size: 1.6rem;
+  line-height: 20.16px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: #1a2a33;
+  font-family: outfit;
+  transition: box-shadow 0.1s ease-out, max-height 0.1s ease-out,
+    -webkit-transform 0.1s ease-out;
+  transition: box-shadow 0.1s ease-out, transform 0.1s ease-out,
+    max-height 0.1s ease-out;
+  transition: box-shadow 0.1s ease-out, transform 0.1s ease-out,
+    max-height 0.1s ease-out, -webkit-transform 0.1s ease-out;
+
+  width: auto;
+}
+#EndGameScreen__Btn__Quit__Cta {
+  display: flex;
+  grid-gap: 16px;
+  gap: 16px;
+}
+
+#EndGameScreen__Text {
+  font-family: outfit;
+  color: #a8bfc9;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+#EndGameScreen__Img_Pos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#EndGameScreen__Img {
+  height: 50px;
+  padding-right: 10px;
+}
